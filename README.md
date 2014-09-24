@@ -25,7 +25,7 @@ Optionally, you can add NPM packages by creating a json object:
 ```
 "dependencies": {
     "traccar": "*"
-  }
+}
 ```
 
 and then type:
@@ -53,7 +53,7 @@ to
 exports.DEFAULTDB = this.REDIS;
 ```
 
-Also, it allows users to modify other default values in file 'config.js'.
+Also, it allows users to modify other default values in 'config.js'.
 
 INTERFACE
 ============
