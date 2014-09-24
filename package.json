@@ -9,7 +9,7 @@
   "main": "./traccar",
   "repository": {
     "type": "git",
-    "url": "http://github.com/caseypt/traccar.js.git"
+    "url": "https://github.com/goshx/node-traccar.git"
   },
   "dependencies": {},
   "devDependencies": {
