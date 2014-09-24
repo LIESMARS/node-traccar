@@ -9,4 +9,4 @@ The following databases options are supported.
 :---------------------------------------------|:----------------------
 mongodb                                       | supported
 redis                                         | supported
-postgis                                       | TODO
+postgis                                       | todo
