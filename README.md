@@ -7,7 +7,7 @@ The following db options are supported.
 
  Option                                       | Description
 :---------------------------------------------|:----------------------
-mongodb                                       | supported
+mongodb                                       | supported (default)
 redis                                         | supported
 postgis                                       | todo
 
