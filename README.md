@@ -28,6 +28,12 @@ Optionally, you can add NPM packages by creating a json object:
   }
 ```
 
+and then type:
+
+```
+npm install
+```
+
 Import package:
 
 ```
