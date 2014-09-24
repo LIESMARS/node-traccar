@@ -40,20 +40,20 @@ Module usage:
 require('traccar');
 ```
 
-Alternate database in file 'traccar.js':
+Alternate database in file 'config.js':
 
 from
 
 ```
-var sqlClient = factory.createClient(config.MONGODB);
+exports.DEFAULTDB = this.MONGODB;
 ```
 to
 
 ```
-var sqlClient = factory.createClient(config.REDIS);
+exports.DEFAULTDB = this.REDIS;
 ```
 
-Also, it allows users to modify default values in file 'config.js'.
+Also, it allows users to modify other default values in file 'config.js'.
 
 INTERFACE
 ============
