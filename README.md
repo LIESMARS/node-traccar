@@ -20,7 +20,7 @@ Install:
 npm install traccar
 ```
 
-Optionally, you can add NPM packages by creating a packages json object:
+Optionally, you can add NPM packages by creating a json object:
 
 ```
 "dependencies": {
@@ -33,3 +33,5 @@ Import package:
 ```
 require('traccar');
 ```
+
+Also, it provide permission to allow users to modify default values in file 'config.js'.
