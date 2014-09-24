@@ -34,7 +34,7 @@ and then type:
 npm install
 ```
 
-Import package:
+module usage:
 
 ```
 require('traccar');
