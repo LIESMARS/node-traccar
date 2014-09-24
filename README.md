@@ -34,6 +34,19 @@ Import package:
 require('traccar');
 ```
 
+Alternate database in file 'traccar.js',
+
+from:
+
+```
+var sqlClient = factory.createClient(config.MONGODB);
+```
+to
+
+```
+var sqlClient = factory.createClient(config.REDIS);
+```
+
 Also, it provide permission to allow users to modify default values in file 'config.js'.
 
 INTERFACE
