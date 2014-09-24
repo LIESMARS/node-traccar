@@ -39,4 +39,4 @@ Also, it provide permission to allow users to modify default values in file 'con
 INTERFACE
 ============
 
-wiki: [Traccar Http Interface](https://github.com/goshx/node-traccar/wiki/Interface)
+[Traccar Http Interface](https://github.com/goshx/node-traccar/wiki/Interface)
