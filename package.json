@@ -2,7 +2,7 @@
   "name": "traccar",
   "description": "node-traccar",
   "author": "Huang Jun <agoshx@gmail.com>",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "main": "./traccar",
   "repository": {
     "type": "git",

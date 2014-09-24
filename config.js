@@ -1,4 +1,9 @@
 /**
+ * default db
+ */
+exports.DEFAULTDB = this.MONGODB;
+
+/**
  * regexp
  */
 exports.REGEXP_IMEI = /^imei,(.*)/i;

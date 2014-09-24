@@ -8,7 +8,7 @@ var HTTP = require('http');
 
 var locationServer = NET.createServer(locationConnectionHandler);
 var queryServer = HTTP.createServer(queryConnectionHandler);
-var sqlClient = factory.createClient(config.MONGODB);
+var sqlClient = factory.createClient(config.DEFAULTDB);
 
 locationServer.listen(config.LOCATIONSERVER_PORT, function (err) {
     debug('location server listen at: %d', config.LOCATIONSERVER_PORT);
