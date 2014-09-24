@@ -53,7 +53,7 @@ to
 var sqlClient = factory.createClient(config.REDIS);
 ```
 
-Also, it provide permission to allow users to modify default values in file 'config.js'.
+Also, it allow users to modify default values in file 'config.js'.
 
 INTERFACE
 ============
