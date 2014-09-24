@@ -1,7 +1,7 @@
 DESCRIPTION
 ============
 
-An implementation of [Traccar](https://www.traccar.org) for [Nodejs](http://nodejs.org/). This allows you to report location infomation and get query result in json format.
+An implementation of [Traccar](https://www.traccar.org) for [Nodejs](http://nodejs.org/). This allows you to report indoor/outdoor infomation and get query result in json format.
 
 The following db options are supported.
 
