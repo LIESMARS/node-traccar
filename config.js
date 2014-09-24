@@ -1,9 +1,4 @@
 /**
- * default db
- */
-exports.DEFAULTDB = this.MONGODB;
-
-/**
  * regexp
  */
 exports.REGEXP_IMEI = /^imei,(.*)/i;
@@ -48,3 +43,9 @@ exports.NULLNAME = '未命名';
 exports.NULLPOSITION = 'NaNNaN';
 exports.IMEISTORE = {};
 exports.NAMESTORE = {};
+
+/**
+ * default db
+ */
+exports.DEFAULTDB = this.MONGODB;
+
