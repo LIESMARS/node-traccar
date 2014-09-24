@@ -34,9 +34,9 @@ Import package:
 require('traccar');
 ```
 
-Alternate database in file 'traccar.js',
+Alternate database in file 'traccar.js':
 
-from:
+from
 
 ```
 var sqlClient = factory.createClient(config.MONGODB);
