@@ -28,7 +28,13 @@ Optionally, you can add NPM packages by creating a json object:
   }
 ```
 
-Import package:
+and then type:
+
+```
+npm install
+```
+
+Module usage:
 
 ```
 require('traccar');
@@ -47,7 +53,7 @@ to
 var sqlClient = factory.createClient(config.REDIS);
 ```
 
-Also, it provide permission to allow users to modify default values in file 'config.js'.
+Also, it allow users to modify default values in file 'config.js'.
 
 INTERFACE
 ============
