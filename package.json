@@ -1,34 +1,26 @@
 {
   "name": "traccar",
   "description": "node-traccar",
-  "author": {
-    "name": "Huang Jun",
-    "email": "agoshx@gmail.com"
-  },
-  "version": "0.0.1",
+  "author": "Huang Jun <agoshx@gmail.com>",
+  "version": "0.0.4",
   "main": "./traccar",
   "repository": {
     "type": "git",
-    "url": "http://github.com/caseypt/traccar.js.git"
+    "url": "https://github.com/goshx/node-traccar.git"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "geojson": "*",
     "mongodb": "*",
-	"redis": "*",
+    "redis": "*"},
+  "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-simple-mocha": "~0.4.0",
-    "grunt-mocha": "~0.3.4",
     "grunt-contrib-jshint": "~0.6.0",
-    "grunt-contrib-uglify": "~0.2.2",
-    "grunt-lib-phantomjs": "~0.3.1"
+    "grunt-contrib-uglify": "~0.2.2"
   },
   "engines": {
     "node": "0.8.x"
   },
-  "scripts": {
-  },
-  "_id": "traccar@0.0.1",
+  "scripts": {},
   "dist": {
     "shasum": "a9a0c07fcae951c4ef34529ca915e60b5f0a7c01",
     "tarball": "http://registry.npmjs.org/traccar/-/traccar-0.1.5.tgz"
@@ -40,12 +32,19 @@
     "email": "agoshx@gmail.com"
   },
   "maintainers": [
-    {
-      "name": "Huang Jun",
-      "email": "agoshx@gmail.com"
-    }
+    "Huang Jun <agoshx@gmail.com>"
   ],
   "directories": {},
   "_shasum": "a9a0c07fcae951c4ef34529ca915e60b5f0a7c01",
-  "_resolved": "https://registry.npmjs.org/traccar/-/traccar-0.1.5.tgz"
+  "_resolved": "https://registry.npmjs.org/traccar/-/traccar-0.1.5.tgz",
+  "bugs": {
+    "url": "https://github.com/goshx/node-traccar/issues"
+  },
+  "homepage": "https://github.com/goshx/node-traccar",
+  "keywords": [
+    "gps",
+    "location",
+    "traccar"
+  ],
+  "license": "ISC"
 }
