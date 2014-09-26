@@ -7,9 +7,9 @@ The following db options are supported.
 
  Option                                       | Outdoor               | Indoor
 :---------------------------------------------|:----------------------|:----------------------
-mongodb                                       | supported             | supported 
-redis                                         | supported             | todo
-postgis                                       | todo                  | todo
+Mongodb                                       | supported             | supported 
+Redis                                         | supported             | todo
+Postgis                                       | todo                  | todo
 
 USAGE
 ============
