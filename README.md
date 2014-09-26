@@ -5,11 +5,11 @@ An implementation of [Traccar](https://www.traccar.org) for [Nodejs](http://node
 
 The following db options are supported.
 
- Option                                       | Description
-:---------------------------------------------|:----------------------
-mongodb                                       | supported (default)
-redis                                         | supported
-postgis                                       | todo
+ Option                                       | Outdoor               | Indoor
+:---------------------------------------------|:----------------------|:----------------------
+mongodb                                       | supported             | supported 
+redis                                         | supported             | todo
+postgis                                       | todo                  | todo
 
 USAGE
 ============
